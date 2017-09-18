@@ -1,0 +1,156 @@
+body {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+	background-blend-mode: multiply,multiply;
+	
+	padding: 0;
+}
+
+#content {
+	margin: 20px auto;
+	height: auto;
+	width: 1000px;
+	height: 1000px;
+}
+
+header {
+	height: 200px;
+	background: linear-gradient(to right, #485563, #29323c );
+}
+
+nav {
+	height: 30px;
+	background: linear-gradient(to right, #606c88, #3f4c6b );	
+	text-align: left;
+	font-size: 18px;
+	position: static;
+	padding-top: 10px;
+}
+
+#logo_pic {
+	float: left;
+}
+
+#logo_words {
+	float: left;
+	position: inherit;
+	margin: 70px 50px;
+	font-size: 21px;
+	color: white;
+	font-style: italic;
+}
+
+.left-menu {
+	float: left;
+	background: linear-gradient(to right, #485563, #29323c );	
+	width: 260px;
+	height: 390px;
+}
+
+.left-menu ul li {
+	list-style: none;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.left-menu ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #eaeaea;
+}
+
+.left-menu ul li a:hover {
+	background: #eaeaea;
+	color: black;
+}
+
+.right-menu {
+	float: right;
+	background: linear-gradient(to right, #485563, #29323c );	
+	width: 260px;
+	height: 390px;
+}
+
+.right-menu ul li {
+	list-style: none;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.right-menu ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color: #eaeaea;
+}
+
+.right-menu ul li a:hover {
+	background: #eaeaea;
+	color: black;
+}
+
+.submenu {
+	display: none;
+	border: none;
+}
+
+#slider {
+	float: left;
+	background: white;
+	height: 400px;
+	width: 740px;
+}
+
+.slider_pic {
+	width: 740px;
+	height: 400px;	
+	display: none;
+}
+
+.intro {
+	background: white;
+	float: left;
+	height: 390px;
+	border-bottom: 3px solid #eaeaea;
+}
+
+.intro p {
+	margin: 50px;
+	font-size: 20px;	
+}
+
+.intro_pic_left {
+	margin: 50px;
+	width: 400px;
+	float: left;
+}
+
+.intro_pic_right {
+	margin: 50px;
+	width: 400px;
+	float: right;
+}
+
+.title {
+	margin: 50px 50px 20px 50px;
+	font-size: 30px;
+	color: grey;
+}
+
+footer {
+	height: 50px;
+	background: linear-gradient(to right, #485563, #29323c );		
+	width: 1000px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #eaeaea;
+	font-size: 18px;
+	margin-right: 50px;
+}
